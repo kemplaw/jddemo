@@ -11,6 +11,9 @@ const _themes = <MaterialColor>[
 ];
 
 class Global {
+  // 缓存器
+  static SharedPreferences _prefs;
   // 主题列表
   static List<MaterialColor> get themes => _themes;
+  // 初始化全局信息
 }
