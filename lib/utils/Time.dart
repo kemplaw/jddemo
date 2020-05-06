@@ -33,6 +33,6 @@ class TimeUtils {
   // 获取日期字符串
   static String getDateStr(int milliseconds, String seperate) {
     final _seperate = seperate ?? '-';
-    const dateMap = getDateMap(milliseconds);
+    final dateMap = getDateMap(milliseconds);
   }
 }
